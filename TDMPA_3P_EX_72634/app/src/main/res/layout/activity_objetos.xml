@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDE6"
+    tools:context=".ObjetosActivity">
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#5C7BC8"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/back_icon"
+        app:iconPadding="0dp"
+        app:iconSize="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="109dp"
+        android:background="#5C7BC8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="MyJournal"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btnCrearModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:backgroundTint="#5C7BC8"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Crear"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:iconPadding="0dp"
+        app:iconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratsemibold"
+        android:hint="Titulo"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <EditText
+        android:id="@+id/txtRecordatorio"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratsemibold"
+        android:hint="Recordatorio (dd/mm/yyyy)"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratsemibold"
+        android:gravity="start|top"
+        android:hint="Descripcion"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <Spinner
+        android:id="@+id/spnTipos"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.117" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

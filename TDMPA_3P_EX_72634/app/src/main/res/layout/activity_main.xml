@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDE6"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="413dp"
+        android:layout_height="109dp"
+        android:background="#5C7BC8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/vwBlancoNota"
+        android:layout_width="316dp"
+        android:layout_height="137dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#f2f5f9"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <View
+        android:id="@+id/vwBlancoTarea"
+        android:layout_width="316dp"
+        android:layout_height="137dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#f2f5f9"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <View
+        android:id="@+id/vwBlancoEvento"
+        android:layout_width="316dp"
+        android:layout_height="137dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#f2f5f9"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <View
+        android:id="@+id/vwRojoEvento"
+        android:layout_width="316dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_corners_top"
+        android:backgroundTint="#cf6363"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <View
+        android:id="@+id/vwAmarilloNota"
+        android:layout_width="316dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_corners_top"
+        android:backgroundTint=" #ddbf5d"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <View
+        android:id="@+id/vwMoradoTarea"
+        android:layout_width="316dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_corners_top"
+        android:backgroundTint="#B06AD1"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Evento"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoEvento"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoEvento"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoEvento"
+        app:layout_constraintTop_toBottomOf="@+id/vwRojoEvento"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/txtNumEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="0"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoEvento"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoEvento"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoEvento"
+        app:layout_constraintTop_toBottomOf="@+id/vwRojoEvento"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Notas"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoNota"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoNota"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoNota"
+        app:layout_constraintTop_toBottomOf="@+id/vwAmarilloNota"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <TextView
+        android:id="@+id/txtNumNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="0"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoNota"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoNota"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoNota"
+        app:layout_constraintTop_toBottomOf="@+id/vwAmarilloNota"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Tarea"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoTarea"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoTarea"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoTarea"
+        app:layout_constraintTop_toBottomOf="@+id/vwMoradoTarea"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/txtNumTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="0"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoTarea"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoTarea"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoTarea"
+        app:layout_constraintTop_toBottomOf="@+id/vwMoradoTarea"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <Button
+        android:id="@+id/btnAñadir"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#5C7BC8"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/edit_icon"
+        app:iconPadding="0dp"
+        app:iconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="MyJournal"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoEvento"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoEvento"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoEvento"
+        app:layout_constraintTop_toBottomOf="@+id/vwRojoEvento"
+        app:layout_constraintVertical_bias="0.454"
+        app:srcCompat="@drawable/event_icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoNota"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoNota"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoNota"
+        app:layout_constraintTop_toBottomOf="@+id/vwAmarilloNota"
+        app:layout_constraintVertical_bias="0.441"
+        app:srcCompat="@drawable/note_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwBlancoTarea"
+        app:layout_constraintEnd_toEndOf="@+id/vwBlancoTarea"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="@+id/vwBlancoTarea"
+        app:layout_constraintTop_toBottomOf="@+id/vwMoradoTarea"
+        app:layout_constraintVertical_bias="0.488"
+        app:srcCompat="@drawable/task_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

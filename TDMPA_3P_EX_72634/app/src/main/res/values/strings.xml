@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TDMPA_3P_EX_72634</string>
+    <string-array name="tipos">
+        <item>Evento</item>
+        <item>Nota</item>
+        <item>Tarea</item>
+    </string-array>
+</resources>
